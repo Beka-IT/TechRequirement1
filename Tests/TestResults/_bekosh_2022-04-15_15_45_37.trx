@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="7112543f-d2ac-4457-b299-00dc26cb93b8" name="@bekosh 2022-04-15 15:45:37" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-04-15T15:45:37.1075547+06:00" queuing="2022-04-15T15:45:37.1075573+06:00" start="2022-04-15T15:45:32.3797251+06:00" finish="2022-04-15T15:45:37.2613130+06:00" />
+  <TestSettings name="default" id="f4ed1379-b872-45e5-8999-b1178f47548e">
+    <Deployment runDeploymentRoot="_bekosh_2022-04-15_15_45_37" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="f14cc907-7261-47cc-9bb1-4890fbda890f" testId="1a37cb2a-7346-bb95-5c4d-1196d590dfde" testName="Tests.UnitTest1.CheckCircleGetAreaMethod" computerName="bekosh" duration="00:00:00.0008754" startTime="2022-04-15T15:45:36.9646433+06:00" endTime="2022-04-15T15:45:36.9646459+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f14cc907-7261-47cc-9bb1-4890fbda890f" />
+    <UnitTestResult executionId="fbac3e1c-7b6b-402e-ae7b-5241bf41820c" testId="2a2f224e-d391-ea0e-844d-5fbae96f8e59" testName="Tests.UnitTest1.CheckTriangleGetAreaMethod" computerName="bekosh" duration="00:00:00.0138864" startTime="2022-04-15T15:45:36.8328932+06:00" endTime="2022-04-15T15:45:36.8331170+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fbac3e1c-7b6b-402e-ae7b-5241bf41820c" />
+    <UnitTestResult executionId="ffce6dca-5abd-4637-b002-d7aed2820b71" testId="d0443f31-1df6-357b-bdba-90c22e717867" testName="Tests.UnitTest1.CheckGreetingWord" computerName="bekosh" duration="00:00:00.0095679" startTime="2022-04-15T15:45:36.9640310+06:00" endTime="2022-04-15T15:45:36.9640336+06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ffce6dca-5abd-4637-b002-d7aed2820b71" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Tests.UnitTest1.CheckCircleGetAreaMethod" storage="/home/bektursun/desktop/programming/dotnet-projects/console/tasksln/tests/bin/debug/net5.0/tests.dll" id="1a37cb2a-7346-bb95-5c4d-1196d590dfde">
+      <Execution id="f14cc907-7261-47cc-9bb1-4890fbda890f" />
+      <TestMethod codeBase="/home/bektursun/Desktop/programming/dotnet-projects/console/TaskSln/Tests/bin/Debug/net5.0/Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTest1" name="CheckCircleGetAreaMethod" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTest1.CheckGreetingWord" storage="/home/bektursun/desktop/programming/dotnet-projects/console/tasksln/tests/bin/debug/net5.0/tests.dll" id="d0443f31-1df6-357b-bdba-90c22e717867">
+      <Execution id="ffce6dca-5abd-4637-b002-d7aed2820b71" />
+      <TestMethod codeBase="/home/bektursun/Desktop/programming/dotnet-projects/console/TaskSln/Tests/bin/Debug/net5.0/Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTest1" name="CheckGreetingWord" />
+    </UnitTest>
+    <UnitTest name="Tests.UnitTest1.CheckTriangleGetAreaMethod" storage="/home/bektursun/desktop/programming/dotnet-projects/console/tasksln/tests/bin/debug/net5.0/tests.dll" id="2a2f224e-d391-ea0e-844d-5fbae96f8e59">
+      <Execution id="fbac3e1c-7b6b-402e-ae7b-5241bf41820c" />
+      <TestMethod codeBase="/home/bektursun/Desktop/programming/dotnet-projects/console/TaskSln/Tests/bin/Debug/net5.0/Tests.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Tests.UnitTest1" name="CheckTriangleGetAreaMethod" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="1a37cb2a-7346-bb95-5c4d-1196d590dfde" executionId="f14cc907-7261-47cc-9bb1-4890fbda890f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2a2f224e-d391-ea0e-844d-5fbae96f8e59" executionId="fbac3e1c-7b6b-402e-ae7b-5241bf41820c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d0443f31-1df6-357b-bdba-90c22e717867" executionId="ffce6dca-5abd-4637-b002-d7aed2820b71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.01] xUnit.net VSTest Adapter v2.4.3+1b45f5407b (64-bit .NET 5.0.14)
+[xUnit.net 00:00:00.94]   Discovering: Tests
+[xUnit.net 00:00:01.04]   Discovered:  Tests
+[xUnit.net 00:00:01.05]   Starting:    Tests
+[xUnit.net 00:00:01.38]   Finished:    Tests
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

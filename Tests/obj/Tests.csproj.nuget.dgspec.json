@@ -1,0 +1,138 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/bektursun/Desktop/programming/dotnet-projects/console/Repo1/TechRequirement1/Tests/Tests.csproj": {}
+  },
+  "projects": {
+    "/home/bektursun/Desktop/programming/dotnet-projects/console/Repo1/TechRequirement1/Task/Task.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bektursun/Desktop/programming/dotnet-projects/console/Repo1/TechRequirement1/Task/Task.csproj",
+        "projectName": "Task",
+        "projectPath": "/home/bektursun/Desktop/programming/dotnet-projects/console/Repo1/TechRequirement1/Task/Task.csproj",
+        "packagesPath": "/home/bektursun/.nuget/packages/",
+        "outputPath": "/home/bektursun/Desktop/programming/dotnet-projects/console/Repo1/TechRequirement1/Task/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bektursun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/bektursun/Desktop/programming/dotnet-projects/console/Repo1/TechRequirement1/Tests/Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/bektursun/Desktop/programming/dotnet-projects/console/Repo1/TechRequirement1/Tests/Tests.csproj",
+        "projectName": "Tests",
+        "projectPath": "/home/bektursun/Desktop/programming/dotnet-projects/console/Repo1/TechRequirement1/Tests/Tests.csproj",
+        "packagesPath": "/home/bektursun/.nuget/packages/",
+        "outputPath": "/home/bektursun/Desktop/programming/dotnet-projects/console/Repo1/TechRequirement1/Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/bektursun/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/bektursun/Desktop/programming/dotnet-projects/console/Repo1/TechRequirement1/Task/Task.csproj": {
+                "projectPath": "/home/bektursun/Desktop/programming/dotnet-projects/console/Repo1/TechRequirement1/Task/Task.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.405/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
