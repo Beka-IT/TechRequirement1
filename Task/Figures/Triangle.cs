@@ -34,8 +34,8 @@ namespace Task.Figures
         }
         public void ShowArea()
         {
-            double p = (_sides[0]+_sides[1]+_sides[2])/2.0;
-            double area = Math.Sqrt(p*(p-_sides[0])*(p-_sides[1])*(p-_sides[2]));
+      
+      
             Console.WriteLine($"Площадь треугольника - {GetArea()}");
         }
         public void showSides()
